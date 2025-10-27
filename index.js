@@ -18,7 +18,7 @@ const delay = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
 const FIELD_PRESETS = {
   basic: ["name", "set", "rarity", "type_line", "mana_cost"],
   creatures: ["name", "set", "type_line", "mana_cost", "power", "toughness", "rarity"],
-  prices: ["name", "set", "rarity", "prices.usd", "prices.usd_foil", "prices.eur", "prices.tix"],
+  prices: ["name", "set", "rarity", "prices.usd", "prices.usd_foil", "prices.usd_etched", "prices.eur", "prices.eur_foil", "prices.eur_etched", "prices.tix"],
   commander: ["name", "type_line", "color_identity", "cmc", "rarity", "edhrec_rank", "prices.usd"],
   collection: ["name", "set_name", "set", "collector_number", "rarity", "artist", "released_at"],
   comprehensive: [
