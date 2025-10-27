@@ -39,13 +39,13 @@ Aggiungi la seguente configurazione al file di configurazione di Claude Desktop:
   "mcpServers": {
     "scryfall": {
       "command": "node",
-      "args": ["C:\\VSCode\\MCP_scryfall\\index.js"]
+      "args": ["C:\\path_to\\MCP_scryfall\\index.js"]
     }
   }
 }
 ```
 
-Sostituisci il percorso con il percorso effettivo del tuo file `index.js`.
+**Importante**: Sostituisci `C:\\path_to\\MCP_scryfall\\` con il percorso assoluto dove hai clonato questo repository.
 
 ## 🔧 Strumenti Disponibili
 
