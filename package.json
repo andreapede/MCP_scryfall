@@ -1,0 +1,27 @@
+{
+  "name": "scryfall-mcp-server",
+  "version": "1.0.0",
+  "description": "MCP server for searching and exporting Magic: The Gathering cards from Scryfall API",
+  "type": "module",
+  "main": "index.js",
+  "bin": {
+    "scryfall-mcp": "./index.js"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "mcp",
+    "scryfall",
+    "magic-the-gathering",
+    "mtg",
+    "cards",
+    "api"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.4",
+    "node-fetch": "^3.3.2"
+  }
+}
